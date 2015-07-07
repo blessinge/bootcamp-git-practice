@@ -9,7 +9,7 @@ def reverse(s):
 	'''
 	This function generates the reverse of s. s can be a string or a list. It returns the type given to it
 	'''
-	pass
+	return s[::-1]
 
 def intersection(a,b):
 	'''
@@ -36,4 +36,4 @@ def sort(l):
 	'''
 	This function returns a sorted version of l
 	'''
-	pass
+	return l.sort()
