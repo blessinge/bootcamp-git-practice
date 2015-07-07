@@ -15,7 +15,11 @@ def intersection(a,b):
 	'''
 	This function returns the intersection of a and b - A list of common elements between a and b
 	'''
-	pass
+	for c in a:
+		for d in b:
+			if c == d
+				return d
+
 
 def generate(steps):
 	pass
@@ -30,10 +34,11 @@ def frequency(needle, haystack):
 	'''
 	This function returns the number of times needle appears in haystack
 	'''
-	for f in haystack
-		if (f == needle)
-		n += 1
-		return n
+	n = 0
+	for f in haystack:
+		if f == needle:
+			n += 1
+	return n
 
 def sort(l):
 	'''
