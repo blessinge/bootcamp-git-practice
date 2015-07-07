@@ -15,10 +15,12 @@ def intersection(a,b):
 	'''
 	This function returns the intersection of a and b - A list of common elements between a and b
 	'''
+	t = []
 	for c in a:
 		for d in b:
-			if c == d
-				return d
+			if c == d:
+				t.append(d)
+	return t
 
 
 def generate(steps):
