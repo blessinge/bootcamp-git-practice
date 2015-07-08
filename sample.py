@@ -19,7 +19,7 @@ def intersection(a,b):
 	for c in a:
 		for d in b:
 			if c == d:
-				t.append(d)
+				t[len(t)] = d
 	return t
 
 
